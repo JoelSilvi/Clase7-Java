@@ -15,8 +15,7 @@ public class Terrestres extends MedioDeTransporte {
 
 	@Override
 	public void mostrarDatos() {
-		System.out.println("transita en : " + tipoVehiculo + " por un camino de: " + tipoCamino
+		System.out.println("Transita en : " + tipoVehiculo + " por un camino de: " + tipoCamino
 				+ " y el tipo de manubrio es: " + tipoManubrio);
 	}
-
 }

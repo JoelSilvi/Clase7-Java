@@ -14,9 +14,15 @@ public class Bicicleta extends Terrestres{
 	
 	@Override
 	public void mostrarDatos() {
-		System.out.println("el tipo de cadena es: " + cadena + " los pedales son: " +
+		System.out.println("El tipo de cadena es: " + cadena + " los pedales son: " +
 				pedales + " y la horquilla es de tipo: " + horquilla);
 	}
 	
+	public void pedalear() {
+		this.pedales = "pedales simples";
+		this.marca = "Bianchi";
+		System.out.println("Podemos usar la bici que tiene: " + pedales +
+				" esa es marca " + marca);
+	}
 	
 }

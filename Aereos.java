@@ -14,7 +14,7 @@ public class Aereos extends MedioDeTransporte {
 
 	@Override
 	public void mostrarDatos() {
-		System.out.println("el tipo de clima es : " + tipoDeClima + " el vuelo es : " + tipoDeVuelo
+		System.out.println("El tipo de clima es: " + tipoDeClima + " el vuelo es : " + tipoDeVuelo
 				+ " y el tipo de helices es: " + tipoHelices);
 	}
 }
